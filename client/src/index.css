@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+	background-color: #363636;
+}
+
+.sidebarContainer {
+	position: fixed;
+	min-height: 100vh;
+	border-style: solid;
+	border-width: 1px;
+	border-left: 0px;
+	border-top: 0px;
+	border-bottom: 0px;
+	border-color: #e0e0e0;
+}
+
+.homeContainer {
+	width: calc(100vw - 200px);
+	left: 200px;
+	position: relative;
+}
+
+.inputSearch {
+	background-color: #5b5b5b;
+	border: none;
+	width: calc(100vw - 200px);
+	height: 40px;
+}
+
+.iconSearch {
+	position: absolute;
+	width: 1%;
+	background-color: #5b5b5b;
+	top: 15px;
+	left: 15px;
+	z-index: 1;
+}
