@@ -36,3 +36,192 @@
 	left: 15px;
 	z-index: 1;
 }
+
+.iconsContainer {
+	display: flex;
+	justify-content: end;
+	align-items: end;
+	height: calc(100vh - 40px);
+	padding-right: 25px;
+	padding-bottom: 15px;
+}
+
+.icons {
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	gap: 15px;
+}
+
+.quicks {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	background-color: #2f80ed;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.stroke {
+	width: 30%;
+	background-color: #2f80ed;
+	cursor: pointer;
+}
+
+.tools {
+	position: fixed;
+	right: 85px;
+	bottom: 22px;
+	display: flex;
+	flex-direction: row-reverse;
+	gap: 15px;
+}
+
+.tools-text {
+	color: #e0e0e0;
+	font-size: 12px;
+}
+
+.inboxArea {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.inbox {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	background-color: #e0e0e0;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.inboxIcon {
+	width: 50%;
+	background-color: #e0e0e0;
+	cursor: pointer;
+}
+
+.taskArea {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.task {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	background-color: #e0e0e0;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.taskIcon {
+	width: 50%;
+	background-color: #e0e0e0;
+	cursor: pointer;
+}
+
+.inbox-active {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	background-color: #8785ff;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	cursor: pointer;
+	z-index: 2;
+}
+
+.inbox-active-shadow {
+	position: fixed;
+	right: 30px;
+	bottom: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	background-color: #4f4f4f;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	cursor: pointer;
+	z-index: 1;
+}
+
+.inboxIcon-active {
+	width: 50%;
+	background-color: #8785ff;
+	cursor: pointer;
+}
+
+.task-active {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	background-color: #f8b76b;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	cursor: pointer;
+	z-index: 2;
+}
+
+.task-active-shadow {
+	position: fixed;
+	right: 30px;
+	bottom: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	background-color: #4f4f4f;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	cursor: pointer;
+	z-index: 1;
+}
+
+.taskIcon-active {
+	width: 50%;
+	background-color: #f8b76b;
+	cursor: pointer;
+}
+
+.modalContainer {
+	background-color: white;
+	position: fixed;
+	right: 20px;
+	bottom: 80px;
+	width: 734px;
+	height: 737px;
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #bdbdbd;
+	border-width: 1px;
+	padding: 24px 32px;
+}
