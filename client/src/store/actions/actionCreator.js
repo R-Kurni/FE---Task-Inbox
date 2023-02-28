@@ -20,3 +20,23 @@
 // 		}
 // 	};
 // };
+
+// export const createTask = (formTask) => {
+// 	return async (dispatch) => {
+// 		try {
+// 			const res = await fetch("http://localhost:3000/tasks", {
+// 				method: "POST",
+// 				headers: {
+// 					"Content-Type": "application/json",
+// 					// access_token: localStorage.access_token,
+// 				},
+// 				body: JSON.stringify(formTask),
+// 			});
+// 			const data = await res.json();
+// 			await dispatch(fetchtasks());
+// 			return data;
+// 		} catch (error) {
+// 			console.log(error);
+// 		}
+// 	};
+// };
